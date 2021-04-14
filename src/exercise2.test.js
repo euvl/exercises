@@ -4,12 +4,12 @@
  *
  * @param {name} string
  */
-const createSpeaker = (name) => {};
+const speaker = (name) => {};
 
 describe("Task 2", () => {
   test("check if task is correct", () => {
-    const ted = createSpeaker("Ted");
-    const hannah = createSpeaker("Hannah");
+    const ted = speaker("Ted");
+    const hannah = speaker("Hannah");
 
     expect(ted("Hello!")).toEqual("Ted: Hello!");
     expect(hannah("Wazzup!")).toEqual("Ted: Wazzup!");
