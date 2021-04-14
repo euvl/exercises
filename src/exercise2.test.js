@@ -1,6 +1,6 @@
 /**
  * Function that creates a speaker with the name "name".
- * When "speaker" function is called it returns the value with the name of the speaker.
+ * When chat function is called it returns the value with the name of the speaker (see tests).
  *
  * @param {name} string
  */
